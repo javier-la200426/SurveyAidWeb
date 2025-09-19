@@ -1,0 +1,233 @@
+/* Privacy Page Styles */
+
+.privacy {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.page-header {
+  background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+  color: white;
+  padding: 100px 0 60px;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.last-updated {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.privacy-content {
+  padding: 80px 0;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 60px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  line-height: 1.7;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.section-divider {
+  margin: 3rem 0;
+  border: none;
+  border-top: 2px solid #e2e8f0;
+  width: 100%;
+}
+
+.privacy-section {
+  margin-bottom: 3rem;
+}
+
+.privacy-section:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-section h2 {
+  color: #0066cc;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #0066cc;
+  position: relative;
+}
+
+.privacy-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #0066cc, #004499);
+  border-radius: 2px;
+}
+
+.privacy-section p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.privacy-section ul {
+  margin-bottom: 2rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.privacy-section li {
+  color: #4a5568;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  line-height: 1.7;
+}
+
+.privacy-section li::before {
+  content: '•';
+  color: #0066cc;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0.5rem;
+  top: -0.1rem;
+  font-weight: bold;
+}
+
+.privacy-section strong {
+  color: #0066cc;
+  font-weight: 600;
+}
+
+.privacy-section a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.privacy-section a:hover {
+  border-bottom-color: #0066cc;
+  color: #004499;
+}
+
+.contact-link-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.contact-link-wrapper::before {
+  content: '👉';
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #0066cc, #004499);
+  color: white !important;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 102, 204, 0.3);
+  border: none !important;
+}
+
+.contact-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 102, 204, 0.4);
+  color: white !important;
+}
+
+/* Animation classes */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-header {
+    padding: 80px 0 40px;
+  }
+  
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content-wrapper {
+    padding: 40px 30px;
+    border-radius: 15px;
+  }
+  
+  .privacy-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .privacy-section p,
+  .privacy-section li {
+    font-size: 1rem;
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .content-wrapper {
+    padding: 30px 20px;
+    margin: 0 20px;
+  }
+  
+  .privacy-section h2 {
+    font-size: 1.6rem;
+  }
+  
+  .contact-link {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
