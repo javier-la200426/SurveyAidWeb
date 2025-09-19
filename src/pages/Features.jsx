@@ -19,9 +19,6 @@ const Features = () => {
       <section className="organization-section section-padding">
         <div className="container">
           <div className="organization-content text-center fade-in">
-            <h2>Organization Management</h2>
-            <p>Keep your surveys and assessments organized with our comprehensive management system</p>
-            
             <div className="organization-images">
               <div className="org-image-item slide-in-left">
                 <h3>Created Surveys</h3>

@@ -238,17 +238,18 @@
   font-size: 1rem;
   color: #666;
   margin-bottom: 12px;
-  padding-left: 24px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   line-height: 1.5;
 }
 
 .pricing-features li::before {
   content: '✓';
-  position: absolute;
-  left: 0;
   color: #27ae60;
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .pricing-cta {
@@ -402,6 +403,10 @@
     padding: 32px 24px;
   }
   
+  .pricing-card-featured .pricing-header {
+    margin-top: 20px;
+  }
+  
   .cta-content h2 {
     font-size: 2rem;
   }
@@ -426,6 +431,10 @@
   
   .pricing-card {
     padding: 24px 20px;
+  }
+  
+  .pricing-card-featured .pricing-header {
+    margin-top: 24px;
   }
   
   .app-store-badge {

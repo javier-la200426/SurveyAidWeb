@@ -231,6 +231,10 @@
   }
   
   .feature-content-reverse .feature-image {
+    order: 1;
+  }
+  
+  .feature-content-reverse .feature-text {
     order: 0;
   }
   
