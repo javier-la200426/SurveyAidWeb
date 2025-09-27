@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Download</h4>
             <a 
-              href="https://apps.apple.com" 
+              href="https://apps.apple.com/us/app/surveyaid/id6752032428" 
               target="_blank" 
               rel="noopener noreferrer"
               className="app-store-link"

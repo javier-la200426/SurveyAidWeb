@@ -54,7 +54,7 @@ const Header = () => {
                 Contact
               </Link>
               <a 
-                href="https://apps.apple.com" 
+                href="https://apps.apple.com/us/app/surveyaid/id6752032428" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="nav-cta btn btn-primary"

@@ -122,7 +122,7 @@ const About = () => {
             <h2>Join Our Mission</h2>
             <p>Be part of the movement to democratize professional survey creation</p>
             <a 
-              href="https://apps.apple.com" 
+              href="https://apps.apple.com/us/app/surveyaid/id6752032428" 
               target="_blank" 
               rel="noopener noreferrer"
               className="app-store-link"

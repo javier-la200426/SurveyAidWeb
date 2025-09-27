@@ -134,7 +134,7 @@ const Features = () => {
                   </ul>
                 </div>
                 <div className="pricing-cta">
-                  <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                  <a href="https://apps.apple.com/us/app/surveyaid/id6752032428" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
                     Get Started
                   </a>
                 </div>
@@ -156,7 +156,7 @@ const Features = () => {
                   </ul>
                 </div>
                 <div className="pricing-cta">
-                  <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                  <a href="https://apps.apple.com/us/app/surveyaid/id6752032428" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                     Get Started
                   </a>
                 </div>
@@ -177,7 +177,7 @@ const Features = () => {
                   </ul>
                 </div>
                 <div className="pricing-cta">
-                  <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                  <a href="https://apps.apple.com/us/app/surveyaid/id6752032428" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
                     Get Started
                   </a>
                 </div>
@@ -193,7 +193,7 @@ const Features = () => {
           <div className="cta-content fade-in">
             <h2>Ready to Get Started?</h2>
             <a 
-              href="https://apps.apple.com" 
+              href="https://apps.apple.com/us/app/surveyaid/id6752032428" 
               target="_blank" 
               rel="noopener noreferrer"
               className="app-store-link"

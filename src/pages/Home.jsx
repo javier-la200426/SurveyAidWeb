@@ -14,7 +14,7 @@ const Home = () => {
               <p className="hero-subtitle">Download now on the app store</p>
               <div className="hero-cta">
                 <a 
-                  href="https://apps.apple.com" 
+                  href="https://apps.apple.com/us/app/surveyaid/id6752032428" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="app-store-link"
@@ -124,7 +124,7 @@ const Home = () => {
           <div className="cta-content fade-in">
             <h2>Ready to revolutionize your survey creation?</h2>
             <a 
-              href="https://apps.apple.com" 
+              href="https://apps.apple.com/us/app/surveyaid/id6752032428" 
               target="_blank" 
               rel="noopener noreferrer"
               className="app-store-link"
