@@ -126,8 +126,8 @@
 }
 
 .member-photo {
-  width: 120px;
-  height: 120px;
+  width: 240px;
+  height: 240px;
   margin: 0 auto 24px;
   border-radius: 50%;
   overflow: hidden;
@@ -159,6 +159,25 @@
   color: #666;
   line-height: 1.6;
   text-align: center;
+}
+
+.member-links {
+  margin-bottom: 12px;
+}
+
+.member-link {
+  display: inline-block;
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.25);
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.member-link:hover {
+  color: #556cd6;
+  border-color: rgba(102, 126, 234, 0.6);
 }
 
 /* Values Section */
@@ -339,6 +358,11 @@
     grid-template-columns: 1fr;
   }
   
+  .member-photo {
+    width: 200px;
+    height: 200px;
+  }
+  
   
   .team-member {
     padding: 32px 24px;
@@ -364,6 +388,11 @@
   
   .story-text h2 {
     font-size: 1.75rem;
+  }
+  
+  .member-photo {
+    width: 160px;
+    height: 160px;
   }
   
   

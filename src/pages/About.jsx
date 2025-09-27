@@ -65,11 +65,21 @@ const About = () => {
             <div className="team-grid">
               <div className="team-member fade-in">
                 <div className="member-photo">
-                  <img src="/images/team-member1.svg" alt="Javier Laveaga" />
+                  <img src="/images/Final-3.png" alt="Javier Laveaga" />
                 </div>
                 <div className="member-info">
                   <h3>Javier Laveaga</h3>
                   <p className="member-role">Founder & CEO</p>
+                  <div className="member-links">
+                    <a
+                      href="https://www.javierlaveaga.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="member-link"
+                    >
+                      Website
+                    </a>
+                  </div>
                   <p className="member-description">
                     Creator of SurveyAid, responsible for the platform's development, design, and strategic vision. 
                   </p>
