@@ -138,14 +138,32 @@
     padding: 0 !important;
   }
   
+  .phone-notch {
+    width: 125px !important;
+    height: 25px !important;
+    border-radius: 0 0 18px 18px !important;
+  }
+  
   .phone-frame-small .phone-frame-container {
     width: 180px !important;
     height: 360px !important;
   }
   
+  .phone-frame-small .phone-notch {
+    width: 90px !important;
+    height: 18px !important;
+    border-radius: 0 0 12px 12px !important;
+  }
+  
   .phone-frame-large .phone-frame-container {
     width: 280px !important;
     height: 560px !important;
+  }
+  
+  .phone-frame-large .phone-notch {
+    width: 140px !important;
+    height: 28px !important;
+    border-radius: 0 0 20px 20px !important;
   }
 }
 
@@ -157,5 +175,23 @@
   .phone-frame-container {
     width: 220px !important;
     height: 440px !important;
+  }
+  
+  .phone-notch {
+    width: 110px !important;
+    height: 22px !important;
+    border-radius: 0 0 16px 16px !important;
+  }
+  
+  .phone-frame-small .phone-notch {
+    width: 80px !important;
+    height: 16px !important;
+    border-radius: 0 0 10px 10px !important;
+  }
+  
+  .phone-frame-large .phone-notch {
+    width: 120px !important;
+    height: 24px !important;
+    border-radius: 0 0 18px 18px !important;
   }
 }
